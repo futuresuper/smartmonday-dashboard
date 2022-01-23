@@ -1,35 +1,22 @@
 @use "colours" as *;
 
 $font-size-xs: max(10px, 0.9vw);
-$font-size-s: max(13px, 1.2vw);
-$font-size-m: max(16px, 1.8vw);
+$font-size-s: max(11px, 1.1vw);
+$font-size-m: max(12px, 1.4vw);
 $font-size-l: max(30px, 2.2vw);
-$font-size-xl: max(34px, 5vw);
+$font-size-xl: max(30px, 4vw);
 
-$transition-text-hover: all 125ms ease-in-out;
-
-$radius: 40px;
-
-@font-face {
-  font-family: "FutureSuperRegular";
-  src: url("/fonts/ABCMonumentGrotesk-Regular.woff2") format("woff2");
-  font-weight: 1 999;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "FutureSuperBold";
-  src: url("/fonts/ABCMonumentGrotesk-Medium.woff2") format("woff2");
-  font-weight: 1 999;
-  font-display: swap;
-}
-
-$bold: "FutureSuperBold", sans-serif;
-$regular: "FutureSuperRegular", sans-serif;
+$font: sans-serif;
 
 body {
-  font-family: $regular;
+  font-family: $font;
   color: $black;
+}
+
+sup {
+  line-height: 0;
+  vertical-align: super;
+  font-size: $font-size-xs;
 }
 
 h1,
@@ -37,23 +24,41 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: $bold;
+  font-weight: bold;
 }
 
-p {
-  font-family: $regular;
-  margin-bottom: 1rem;
-  line-height: 120%;
+h1 {
+  font-size: $font-size-xl;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: $font-size-l;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+h3 {
   font-size: $font-size-m;
-  a {
-    color: inherit;
-    transition: $transition-text-hover;
-    &:hover {
-      color: $green;
-    }
+  margin-bottom: 20px;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
+}
+
+p,
+span {
+  margin-bottom: 1rem;
+  line-height: 130%;
+  font-size: $font-size-m;
+
   &.disclaimer {
-    font-size: $font-size-xs;
+    font-size: $font-size-s;
   }
   &.xs {
     font-size: $font-size-xs;
@@ -69,7 +74,14 @@ p {
   }
 }
 
+li {
+  &.disclaimer {
+    line-height: 130%;
+    font-size: $font-size-s;
+  }
+}
+
 strong,
 .bold {
-  font-family: $bold;
+  font-weight: bold;
 }

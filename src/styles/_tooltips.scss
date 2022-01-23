@@ -10,7 +10,6 @@
   /* Tooltip text */
   .tooltip-text {
     visibility: hidden;
-    font-family: $regular;
     font-size: 14px;
     width: 120px;
     bottom: calc(100% + 8px);
@@ -43,83 +42,3 @@
     }
   }
 }
-
-/*
-$tooltip-width: 13rem;
-$tooltip-padding: 0.75rem;
-
-// Universal tooltip styling for all situations
-.tooltip-text {
-  width: 13rem;
-  font-family: $mono;
-  font-size: 0.75rem;
-  padding: $tooltip-padding;
-  position: absolute;
-  z-index: 3;
-
-  &::after {
-    content: " ";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-  }
-}
-
-// Hover tooltip styling
-.tooltip {
-  position: relative;
-  display: inline;
-  text-decoration: dotted underline;
-
-  &:hover {
-    cursor: help;
-    color: $green;
-
-    .tooltip-text {
-      display: block;
-    }
-  }
-
-  .tooltip-text {
-    display: none;
-    background-color: $black;
-    color: $white;
-    text-align: center;
-    transform: translate(-50%, 0);
-    left: 50%;
-    bottom: 100%;
-
-    &::after {
-      border-color: $black500 transparent transparent transparent;
-    }
-
-    &.left {
-      text-align: left;
-      transform: translate(-0.5rem, 0);
-      left: 0;
-
-      &::after {
-        left: 2.5rem;
-      }
-    }
-
-    &.right {
-      text-align: right;
-      transform-origin: top right;
-      transform: translate(0, 0);
-      left: 6.5rem;
-      // Although mathematically correct, renders with additional margin on iOS
-      // left: -$tooltip-width / 2 - 1.25rem;
-      // Works on iOS but causes bleed on macOS:
-      // left: -$tooltip-width / 2;
-
-      &::after {
-        left: calc(100% - 2.5rem);
-      }
-    }
-  }
-}
-*/
