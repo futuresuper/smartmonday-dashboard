@@ -1,11 +1,17 @@
 <script>
   import Slider from "./Slider.svelte";
+  import Chart from "./Chart.svelte";
+  import data from "../data/dashboard.json";
 
-  // const clientSide = !import.meta.env.SSR;
+  let age = 16;
+  let returnTarget = "";
+  let dollarReturn = "";
 
-  // if (clientSide) {
-  //   // Do something
-  // }
+  function updateAge(n) {
+    age = n;
+    returnTarget = data[age.toString()].returnTarget;
+    dollarReturn = data[age.toString()].return;
+  }
 </script>
 
 <div class="container">
@@ -35,7 +41,7 @@
 
   <h2>Select your age</h2>
 
-  <Slider />
+  <Slider {age} {updateAge} />
 
   <div class="grid">
     <div class="full-width">
@@ -48,8 +54,8 @@
     <div>
       <h3>Return target<sup>2</sup></h3>
       <p class="s">
-        To provide a return at least 3.1% per year above inflation (after fees
-        and taxes) over rolling 10-year periods.
+        To provide a return at least {returnTarget}% per year above inflation
+        (after fees and taxes) over rolling 10-year periods.
       </p>
       <p class="s">
         The return target is a prediction and therefore can’t be guaranteed.
@@ -57,7 +63,7 @@
     </div>
     <div>
       <h3>Return<sup>1, 2</sup></h3>
-      <p class="l bold">9.10% p.a.</p>
+      <p class="l bold">{dollarReturn}% p.a.</p>
       <p class="s">
         This is the average annual return from 1 July 2014 to 30 June 2021.
       </p>
@@ -66,14 +72,16 @@
     <div>
       <h3>Level of investment risk</h3>
       <p class="l bold">Very high</p>
-      <p>
+      <p class="s">
         This risk band means we anticipate there will be approximately 6 or more
         years of negative annual returns over any 20-year period.
       </p>
     </div>
     <div class="full-width">
       <h3>Comparison between return target and return<sup>1, 2</sup></h3>
-      <div class="graph">[GRAPH]</div>
+      <div class="graph">
+        <Chart {age} />
+      </div>
       <p class="disclaimer">
         Past returns are not a reliable indicator of future returns. Please note
         that the average return shown above is a cumulative average since
@@ -188,5 +196,17 @@
 
   ol > li {
     margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 100%;
+      > * {
+        grid-column: span 1;
+      }
+      .full-width {
+        grid-column: span 1;
+      }
+    }
   }
 </style>

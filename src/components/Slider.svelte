@@ -1,25 +1,31 @@
 <script>
-  let value = 16;
+  export let age;
+  export let updateAge;
+  $: if (age) {
+    updateAge(age);
+  }
   let max = 75;
   let min = 16;
   let rStyle = "";
 
   const setNumberPosition = () => {
-    const newValue = Number(((value - min) * 100) / (max - min));
+    const newValue = Number(((age - min) * 100) / (max - min + 0.4));
     const newPosition = 10 - newValue * 0.2;
-    console.log(newValue);
-    console.log(newPosition);
-    rStyle = `calc(${newValue}% + (${newPosition}px))`;
+    // console.log(newValue);
+    // console.log(newPosition);
+    rStyle = `calc(${newValue}% - 14px + (${newPosition}px))`;
   };
 </script>
 
 <div class="slidecontainer">
   <div class="range-wrap">
-    <div class="range-value" id="rangeV" style={"left: " + rStyle}>
-      {value}
+    <div class="range-value-container">
+      <div class="range-value" id="rangeV" style={"left: " + rStyle}>
+        {age}
+      </div>
     </div>
     <input
-      bind:value
+      bind:value={age}
       on:input={setNumberPosition}
       id="range"
       type="range"
@@ -34,13 +40,6 @@
 <style lang="scss">
   @use "../styles/" as *;
 
-  .number {
-    text-align: center;
-    font-size: $font-size-l;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
   input[type="range"] {
     -webkit-appearance: none;
     margin: 20px 0;
@@ -51,57 +50,34 @@
   }
   input[type="range"]::-webkit-slider-runnable-track {
     width: 100%;
-    height: 4px;
+    height: 8px;
     cursor: pointer;
-    background: #03a9f4;
+    background: $red;
     border-radius: 25px;
   }
   input[type="range"]::-webkit-slider-thumb {
-    height: 20px;
-    width: 20px;
+    height: 26px;
+    width: 26px;
     border-radius: 50%;
     background: #fff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 1);
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -8px;
-  }
-  input[type="range"]:focus::-webkit-slider-runnable-track {
-    background: #03a9f4;
+    margin-top: -9px;
   }
   .range-wrap {
-    width: 500px;
+    width: 100%;
     position: relative;
+    padding: 40px;
+  }
+  .range-value-container {
+    position: relative;
+    width: 100%;
   }
   .range-value {
     position: absolute;
-    top: -50%;
-  }
-  .range-value span {
-    width: 30px;
-    height: 24px;
-    line-height: 24px;
-    text-align: center;
-    background: #03a9f4;
-    color: #fff;
-    font-size: 12px;
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border-radius: 6px;
-  }
-  .range-value span:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 10px solid #03a9f4;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    margin-top: -1px;
+    top: -36px;
+    font-size: 28px;
+    font-weight: bold;
   }
 </style>
