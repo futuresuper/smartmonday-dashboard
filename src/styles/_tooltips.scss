@@ -5,16 +5,15 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dashed black; /* If you want dots under the hoverable text */
 
   /* Tooltip text */
   .tooltip-text {
     visibility: hidden;
     font-size: 14px;
-    width: 120px;
-    bottom: calc(100% + 8px);
+    width: 180px;
+    bottom: calc(100% - 8px);
     left: 50%;
-    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -90px; /* Use half of the width (120/2 = 60), to center the tooltip */
     background-color: black;
     color: #fff;
     text-align: center;

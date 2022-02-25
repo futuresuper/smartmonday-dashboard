@@ -1,12 +1,34 @@
 @use "colours" as *;
 
+@font-face {
+  font-family: "SmartMondayRegular";
+  src: url("/fonts/Calibri-Regular.ttf") format("truetype");
+  font-weight: 1 999;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SmartMondayBold";
+  src: url("/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 800 999;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SmartMondayBold";
+  src: url("/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 1 799;
+  font-display: swap;
+}
+
 $font-size-xs: max(10px, 0.9vw);
 $font-size-s: max(11px, 1.1vw);
 $font-size-m: max(12px, 1.4vw);
 $font-size-l: max(30px, 2.2vw);
 $font-size-xl: max(30px, 4vw);
 
-$font: sans-serif;
+$font: "SmartMondayRegular", serif;
+$font-headings: "SmartMondayBold", serif;
 
 body {
   font-family: $font;
@@ -19,12 +41,17 @@ sup {
   font-size: $font-size-xs;
 }
 
-h1,
+h1 {
+  font-family: $font-headings;
+  font-weight: 900;
+}
+
 h2,
 h3,
 h4,
 h5 {
-  font-weight: bold;
+  font-family: $font-headings;
+  font-weight: 700;
 }
 
 h1 {

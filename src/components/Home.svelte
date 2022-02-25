@@ -2,6 +2,7 @@
   import Slider from "./Slider.svelte";
   import Chart from "./Chart.svelte";
   import data from "../data/dashboard.json";
+  import QuestionMark from "./ui/QuestionMark.svelte";
 
   let age = 16;
   let returnTarget = "";
@@ -15,6 +16,20 @@
 </script>
 
 <div class="container">
+  <img
+    src="/images/sm-logo.png"
+    alt="SmartMonday Logo"
+    style="width: 245px; margin-bottom: 40px"
+  />
+
+  <p style="font-size: 14px; margin-bottom: 40px">
+    <a href="https://smartmonday.com.au/Home">Home</a>
+    {" > "}
+    <a href="https://smartmonday.com.au/Superannuation">Superannuation</a>
+    {" > "}
+    MySuper Dashboard
+  </p>
+
   <h1>Aon MySuper dashboard</h1>
 
   <p>Use this dashboard to compare Aon MySuper with other MySuper products.</p>
@@ -35,7 +50,7 @@
     is moved to the right. See PDS reference guide
     <a
       href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf?ext=.pdf"
-      >Your investment options</a
+      target="_blank">Your investment options</a
     > for more information on Aon MySuper.
   </p>
 
@@ -46,13 +61,25 @@
   <div class="grid">
     <div class="full-width">
       <h3>Statement of fees and other costs<sup>1</sup></h3>
-      <p class="s">
-        <span class="l bold">$517</span>
-        per year
-      </p>
+      <div class="left-centre">
+        <p class="s">
+          <span class="l bold">$517</span>
+          per year
+        </p>
+        <QuestionMark>
+          You may be eligible for reduced fees depending on the size of your
+          employer's super plan.
+        </QuestionMark>
+      </div>
     </div>
     <div>
-      <h3>Return target<sup>2</sup></h3>
+      <div class="left-centre">
+        <h3>Return target<sup>2</sup></h3>
+        <QuestionMark>
+          We do not recommend an investment timeframe shorter than what is
+          stated in the PDS.
+        </QuestionMark>
+      </div>
       <p class="s">
         To provide a return at least {returnTarget}% per year above inflation
         (after fees and taxes) over rolling 10-year periods.
@@ -70,7 +97,15 @@
       <p class="s">Aon MySuper commenced on 1 January 2014.</p>
     </div>
     <div>
-      <h3>Level of investment risk</h3>
+      <div class="left-centre">
+        <h3>Level of investment risk</h3>
+        <QuestionMark>
+          We use the Standard Risk Measure to rate the level of risk. The risk
+          rating shown here applies to the age you have selected. Over time the
+          level of risk is designed to reduce as you get older because your
+          investment mix will adjust gradually to a more defensive strategy.
+        </QuestionMark>
+      </div>
       <p class="l bold">Very high</p>
       <p class="s">
         This risk band means we anticipate there will be approximately 6 or more
@@ -95,7 +130,7 @@
         performance returns, adjusted for a member’s lifecycle journey, are
         available at <a
           href="https://www.smartmonday.com.au/Documents?cat=investment%20returns"
-          >smartmonday.com.au</a
+          target="_blank">smartmonday.com.au</a
         >
       </p>
     </div>
@@ -115,6 +150,7 @@
       the size of your employer's super plan. See the PDS reference guide
       <a
         href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf?ext=.pdf"
+        target="_blank"
       >
         Fees and costs
       </a>
@@ -127,7 +163,10 @@
       into account the member's lifecycle asset allocation adjustments through
       time. The latest performance returns, adjusted for a member's lifecycle
       journey, are available at
-      <a href="https://smartmonday.com.au/Documents?cat=investment%20returns">
+      <a
+        href="https://smartmonday.com.au/Documents?cat=investment%20returns"
+        target="_blank"
+      >
         smartmonday.com.au
       </a>
       . The Aon MySuper investment option implements a lifecycle investment strategy
@@ -145,14 +184,14 @@
     not be relied upon as personal advice as your personal needs, objectives and
     financial situation have not been considered. Before deciding whether a
     particular product is right for you, please consider the relevant
-    <a href="https://smartmonday.com.au/Documents?cat=PDS">
+    <a href="https://smartmonday.com.au/Documents?cat=PDS" target="_blank">
       Product Disclosure Statement
     </a>
 
     or speak with your financial adviser. If you do not have a financial
     adviser, contact us to ask about the intra-fund advice services you can
     access through your membership. smartMonday is a registered trading name of
-    Aon Solutions Australia Limited ABN 48 002 288 646 AFSL 236667 (Aon), the
+    SmartMonday Solutions Limited ABN 48 002 288 646 AFSL 236667 (Aon), the
     sponsor of the Aon Master Trust ABN 68 964 712 340 (the Fund). The trustee
     of the Fund is Equity Trustees Superannuation Limited ABN 50 055 641 757
     AFSL 229757 RSE Licence L0001458. This dashboard has been prepared by Aon on
@@ -166,11 +205,11 @@
     responsible for their use of this dashboard. Past performance is not a
     reliable indicator of future performance. The Target Market Determinations
     for smartMonday products are available at
-    <a href="https://smartmonday.com.au/Governance">
+    <a href="https://smartmonday.com.au/Governance" target="_blank">
       smartmonday.com.au/governance
     </a>
 
-    . © 2021 Aon Solutions Australia Limited.
+    . © 2021 SmartMonday Solutions Limited.
   </p>
 </div>
 
@@ -192,6 +231,13 @@
     .full-width {
       grid-column: span 3;
     }
+  }
+
+  .left-centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
   }
 
   ol > li {

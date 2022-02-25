@@ -1,6 +1,7 @@
 @use "../styles/_reset.scss" as *;
 @use "colours" as *;
 @use "type" as *;
+@use "tooltips" as *;
 
 body {
   background-color: $white;
