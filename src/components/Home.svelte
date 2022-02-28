@@ -191,14 +191,14 @@
     or speak with your financial adviser. If you do not have a financial
     adviser, contact us to ask about the intra-fund advice services you can
     access through your membership. smartMonday is a registered trading name of
-    SmartMonday Solutions Limited ABN 48 002 288 646 AFSL 236667 (Aon), the
+    SmartMonday Solutions Limited ABN 48 002 288 646 AFSL 236667 (smartMonday), the
     sponsor of the Aon Master Trust ABN 68 964 712 340 (the Fund). The trustee
     of the Fund is Equity Trustees Superannuation Limited ABN 50 055 641 757
-    AFSL 229757 RSE Licence L0001458. This dashboard has been prepared by Aon on
-    behalf of the trustee. smartMonday PRIME is part of the Fund. Aon has taken
+    AFSL 229757 RSE Licence L0001458. This dashboard has been prepared by smartMonday on
+    behalf of the trustee. smartMonday PRIME is part of the Fund. smartMonday has taken
     care in the production of this dashboard, the contents of which has been
     obtained from sources that it believes to be reliable. To the extent
-    permitted by law, Aon and the trustee do not warrant, represent or guarantee
+    permitted by law, smartMonday and the trustee do not warrant, represent or guarantee
     the accuracy, adequacy, completeness or fitness for any purpose that this
     dashboard may be used and accept no liability for any loss incurred by
     anyone who relies on it. In any case, any recipient shall be entirely
