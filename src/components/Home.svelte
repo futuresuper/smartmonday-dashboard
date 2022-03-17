@@ -236,6 +236,9 @@
     flex-direction: row;
     justify-content: left;
     align-items: flex-start;
+    h3 {
+      max-width: 80%;
+    }
   }
 
   ol > li {
