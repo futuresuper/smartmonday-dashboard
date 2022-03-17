@@ -76,8 +76,7 @@
       <div class="left-centre">
         <h3>Return target<sup>2</sup></h3>
         <QuestionMark>
-          We do not recommend an investment timeframe shorter than what is
-          stated in the PDS.
+          This MySuper product is intended for members who expect to remain invested until their retirement, and at least a minimum of 5 years.
         </QuestionMark>
       </div>
       <p class="s">
@@ -100,10 +99,7 @@
       <div class="left-centre">
         <h3>Level of investment risk</h3>
         <QuestionMark>
-          We use the Standard Risk Measure to rate the level of risk. The risk
-          rating shown here applies to the age you have selected. Over time the
-          level of risk is designed to reduce as you get older because your
-          investment mix will adjust gradually to a more defensive strategy.
+          The Standard Risk Measure (SRM) used here is not a complete assessment of risk. For example, while the SRM indicates the likely frequency of negative annual returns (for a 20-year period), it does not indicate the potential size of negative returns. With respect to the current low interest-rate environment, where market interest rates are relatively low by historical standards, the likely frequency of negative annual returns for interest‑bearing securities may be higher than has traditionally been the case and reflected in the SRM.
         </QuestionMark>
       </div>
       <p class="l bold">Very high</p>
@@ -146,6 +142,8 @@
         <li class="disclaimer">investment fee 0.38% p.a.</li>
         <li class="disclaimer">indirect costs of 0.07% p.a.</li>
       </ul>
+      Fees and costs may not necessarily be the same in future years.<br/>
+      
       You may also be eligible for a reduced asset administration fee depending on
       the size of your employer's super plan. See the PDS reference guide
       <a
