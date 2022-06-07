@@ -30,20 +30,20 @@
     MySuper Dashboard
   </p>
 
-  <h1>Aon MySuper dashboard</h1>
+  <h1>smartMonday Lifecycle - MySuper dashboard</h1>
 
-  <p>Use this dashboard to compare Aon MySuper with other MySuper products.</p>
+  <p>Use this dashboard to compare smartMonday Lifecycle with other MySuper products.</p>
   <p>
     The dashboard has been calculated for a member having an account balance of
     $50,000.
   </p>
   <p>
     The return and risk information shown below relate to a specific member age
-    of the Aon MySuper investment option, selected by moving the age slider left
+    of the smartMonday Lifecycle investment option, selected by moving the age slider left
     or right.
   </p>
   <p>
-    Aon MySuper implements a lifecycle investment strategy which automatically
+    smartMonday Lifecycle implements a lifecycle investment strategy which automatically
     adjusts to a more defensive investment mix as the member moves through their
     'working week' towards retirement<sup>2</sup>. This is why the return,
     return target and investment risk level generally reduces as the age slider
@@ -51,7 +51,7 @@
     <a
       href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf?ext=.pdf"
       target="_blank">Your investment options</a
-    > for more information on Aon MySuper.
+    > for more information on smartMonday Lifecycle.
   </p>
 
   <h2>Select your age</h2>
@@ -63,7 +63,7 @@
       <h3>Statement of fees and other costs<sup>1</sup></h3>
       <div class="left-centre">
         <p class="s">
-          <span class="l bold">$517</span>
+          <span class="l bold">$xxx</span>
           per year
         </p>
         <QuestionMark>
@@ -91,9 +91,9 @@
       <h3>Return<sup>1, 2</sup></h3>
       <p class="l bold">{dollarReturn}% p.a.</p>
       <p class="s">
-        This is the average annual return from 1 July 2014 to 30 June 2021.
+        This is the average annual return from 1 July 2014 to 30 June 2022.
       </p>
-      <p class="s">Aon MySuper commenced on 1 January 2014.</p>
+      <p class="s">smartMondayLifecycle commenced on 1 January 2014.</p>
     </div>
     <div>
       <div class="left-centre">
@@ -118,7 +118,7 @@
         that the average return shown above is a cumulative average since
         inception for each year to 30 June. This measure may differ from other
         dashboards and moving averages for other products. The average return
-        for the Aon MySuper product commenced on 1 July 2014, the start of the
+        for the smartMonday Lifecycle product commenced on 1 July 2014, the start of the
         first full financial year after the product was launched. Please take
         this into consideration when using this figure to compare other
         products.The returns shown here do not take into account the member’s
@@ -137,10 +137,10 @@
       The information shown on this dashboard assumes an account balance of
       $50,000. The standard fees and costs for the product are:
       <ul>
-        <li class="disclaimer">asset administration fee 0.44% p.a.</li>
+        <li class="disclaimer">asset administration fee 0.36% p.a.</li>
         <li class="disclaimer">member fee $72.00 ($6 per month).</li>
         <li class="disclaimer">investment fee 0.38% p.a.</li>
-        <li class="disclaimer">indirect costs of 0.07% p.a.</li>
+        <li class="disclaimer">indirect costs range from 0.03% p.a to 0.07% p.a. depending on the proportion you have invested in the High Growth and Defensive portfolios.</li>
       </ul>
       Fees and costs may not necessarily be the same in future years.<br/>
       
@@ -167,7 +167,7 @@
       >
         smartmonday.com.au
       </a>
-      . The Aon MySuper investment option implements a lifecycle investment strategy
+      . The smartMonday Lifecycle investment option implements a lifecycle investment strategy
       which automatically adjusts the asset allocation for a member as they move
       through their working life towards retirement. The youngest members are invested
       in approximately 90% growth-style investments (like shares and property) and
@@ -178,36 +178,20 @@
   </ol>
   <h2>Disclaimer</h2>
   <p class="disclaimer">
-    The information contained in this dashboard is general in nature and should
-    not be relied upon as personal advice as your personal needs, objectives and
-    financial situation have not been considered. Before deciding whether a
-    particular product is right for you, please consider the relevant
-    <a href="https://smartmonday.com.au/Documents?cat=PDS" target="_blank">
+    The information contained in this dashboard is general in nature.  Before deciding whether a particular product is right for your needs and objectives, 
+    please read and consider the relevant  <a href="https://smartmonday.com.au/Documents?cat=PDS" target="_blank">
       Product Disclosure Statement
-    </a>
-
-    or speak with your financial adviser. If you do not have a financial
-    adviser, contact us to ask about the intra-fund advice services you can
-    access through your membership. smartMonday is a registered trading name of
-    SmartMonday Solutions Limited ABN 48 002 288 646 AFSL 236667 (smartMonday), the
-    sponsor of the Aon Master Trust ABN 68 964 712 340 (the Fund). The trustee
-    of the Fund is Equity Trustees Superannuation Limited ABN 50 055 641 757
-    AFSL 229757 RSE Licence L0001458. This dashboard has been prepared by smartMonday on
-    behalf of the trustee. smartMonday PRIME is part of the Fund. smartMonday has taken
-    care in the production of this dashboard, the contents of which has been
-    obtained from sources that it believes to be reliable. To the extent
-    permitted by law, smartMonday and the trustee do not warrant, represent or guarantee
-    the accuracy, adequacy, completeness or fitness for any purpose that this
-    dashboard may be used and accept no liability for any loss incurred by
-    anyone who relies on it. In any case, any recipient shall be entirely
-    responsible for their use of this dashboard. Past performance is not a
-    reliable indicator of future performance. The Target Market Determinations
-    for smartMonday products are available at
+    </a> or speak with a financial adviser. 
+    Contact us to ask about the intra-fund advice services you can access through your membership. 
+    smartMonday is a registered trading name of smartMonday Solutions Limited ABN 48 002 288 646 AFSL 236667, 
+    the sponsor of the Smart Future Trust ABN 68 964 712 340 (the Fund). 
+    The trustee of the Fund and issuer of this dashboard is Equity Trustees Superannuation Limited ABN 50 055 641 757 AFSL 229757 RSE Licence L0001458. 
+    smartMonday PRIME is part of the Fund. Past performance is not a reliable indicator of future performance. 
+    The Target Market Determinations for smartMonday products are available at  
     <a href="https://smartmonday.com.au/Governance" target="_blank">
       smartmonday.com.au/governance
-    </a>
-
-    . © 2021 SmartMonday Solutions Limited.
+    </a>. 
+    © 2022 smartMonday Solutions LimitedThe 
   </p>
 </div>
 
