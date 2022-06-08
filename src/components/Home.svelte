@@ -191,7 +191,7 @@
     <a href="https://smartmonday.com.au/Governance" target="_blank">
       smartmonday.com.au/governance
     </a>. 
-    © 2022 smartMonday Solutions LimitedThe 
+    © 2022 smartMonday Solutions Limited
   </p>
 </div>
 
