@@ -30,7 +30,7 @@
     MySuper Dashboard
   </p>
 
-  <h1>smartMonday Lifecycle - MySuper dashboard</h1>
+  <h1>smartMonday Lifecycle - MySuper product dashboard</h1>
 
   <p>Use this dashboard to compare smartMonday Lifecycle with other MySuper products.</p>
   <p>
@@ -49,7 +49,7 @@
     return target and investment risk level generally reduces as the age slider
     is moved to the right. See PDS reference guide
     <a
-      href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf?ext=.pdf"
+      href="https://www.smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf"
       target="_blank">Your investment options</a
     > for more information on smartMonday Lifecycle.
   </p>
@@ -134,20 +134,20 @@
   <h2>Footnotes</h2>
   <ol>
     <li class="disclaimer">
-      The information shown on this dashboard assumes an account balance of
+      The fees and cost information shown on this dashboard assumes an account balance of
       $50,000. The standard fees and costs for the product are:
       <ul>
-        <li class="disclaimer">asset administration fee 0.36% p.a.</li>
-        <li class="disclaimer">member fee $72.00 ($6 per month).</li>
+        <li class="disclaimer">asset administration fee 0.4436% p.a.</li>
+        <li class="disclaimer">member fee $72 p.a ($6 per month).</li>
         <li class="disclaimer">investment fee 0.38% p.a.</li>
-        <li class="disclaimer">indirect costs range from 0.03% p.a to 0.07% p.a. depending on the proportion you have invested in the High Growth and Defensive portfolios.</li>
+        <li class="disclaimer">indirect costs range from 0.03% p.a to 0.06% p.a. depending on the proportion you have invested in the High Growth and Defensive portfolios.</li>
       </ul>
       Fees and costs may not necessarily be the same in future years.<br/>
       
       You may also be eligible for a reduced asset administration fee depending on
       the size of your employer's super plan. See the PDS reference guide
       <a
-        href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf?ext=.pdf"
+        href="https://www.smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf"
         target="_blank"
       >
         Fees and costs
@@ -167,7 +167,7 @@
       >
         smartmonday.com.au
       </a>
-      . The smartMonday Lifecycle investment option implements a lifecycle investment strategy
+      . The smartMonday Lifecycle investment option implements a 'lifecycle' investment strategy
       which automatically adjusts the asset allocation for a member as they move
       through their working life towards retirement. The youngest members are invested
       in approximately 90% growth-style investments (like shares and property) and
