@@ -7,11 +7,13 @@
   let age = 16;
   let returnTarget = "";
   let dollarReturn = "";
+  let fee = "";
 
   function updateAge(n) {
     age = n;
     returnTarget = data[age.toString()].returnTarget;
     dollarReturn = data[age.toString()].return;
+    fee = data[age.toString()].fee;
   }
 </script>
 
@@ -63,7 +65,7 @@
       <h3>Statement of fees and other costs<sup>1</sup></h3>
       <div class="left-centre">
         <p class="s">
-          <span class="l bold">$xxx</span>
+          <span class="l bold">${fee}</span>
           per year
         </p>
         <QuestionMark>
@@ -137,7 +139,7 @@
       The fees and cost information shown on this dashboard assumes an account balance of
       $50,000. The standard fees and costs for the product are:
       <ul>
-        <li class="disclaimer">asset administration fee 0.4436% p.a.</li>
+        <li class="disclaimer">asset administration fee 0.36% p.a.</li>
         <li class="disclaimer">member fee $72 p.a ($6 per month).</li>
         <li class="disclaimer">investment fee 0.38% p.a.</li>
         <li class="disclaimer">indirect costs range from 0.03% p.a to 0.06% p.a. depending on the proportion you have invested in the High Growth and Defensive portfolios.</li>
@@ -189,8 +191,7 @@
     smartMonday PRIME is part of the Fund. Past performance is not a reliable indicator of future performance. 
     The Target Market Determinations for smartMonday products are available at  
     <a href="https://smartmonday.com.au/Governance" target="_blank">
-      smartmonday.com.au/governance
-    </a>. 
+      smartmonday.com.au/governance</a>. 
     © 2022 smartMonday Solutions Limited
   </p>
 </div>
