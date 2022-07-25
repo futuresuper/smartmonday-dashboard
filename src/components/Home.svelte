@@ -51,7 +51,8 @@
     return target and investment risk level generally reduces as the age slider
     is moved to the right. See PDS reference guide
     <a
-      href="https://www.smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf"
+    
+      href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf"
       target="_blank">Your investment options</a
     > for more information on smartMonday Lifecycle.
   </p>
