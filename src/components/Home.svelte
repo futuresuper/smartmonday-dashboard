@@ -150,7 +150,7 @@
       You may also be eligible for a reduced asset administration fee depending on
       the size of your employer's super plan. See the PDS reference guide
       <a
-        href="https://www.smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf"
+        href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf?ext=.pdf"
         target="_blank"
       >
         Fees and costs
