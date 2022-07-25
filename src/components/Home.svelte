@@ -168,9 +168,7 @@
         href="https://smartmonday.com.au/Documents?cat=investment%20returns"
         target="_blank"
       >
-        smartmonday.com.au
-      </a>
-      . The smartMonday Lifecycle investment option implements a 'lifecycle' investment strategy
+        smartmonday.com.au</a>. The smartMonday Lifecycle investment option implements a 'lifecycle' investment strategy
       which automatically adjusts the asset allocation for a member as they move
       through their working life towards retirement. The youngest members are invested
       in approximately 90% growth-style investments (like shares and property) and
