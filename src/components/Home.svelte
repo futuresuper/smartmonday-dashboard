@@ -52,7 +52,7 @@
     is moved to the right. See PDS reference guide
     <a
     
-      href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf"
+      href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Investment-Options.pdf?ext=.pdf"
       target="_blank">Your investment options</a
     > for more information on smartMonday Lifecycle.
   </p>
@@ -150,7 +150,7 @@
       You may also be eligible for a reduced asset administration fee depending on
       the size of your employer's super plan. See the PDS reference guide
       <a
-        href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf?ext=.pdf"
+        href="https://smartmonday.com.au/smartmonday/media/smartmonday/docs/PDS-PRIME-Fees-and-costs.pdf"
         target="_blank"
       >
         Fees and costs
