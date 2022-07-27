@@ -94,7 +94,7 @@
       <h3>Return<sup>1, 2</sup></h3>
       <p class="l bold">{dollarReturn}% p.a.</p>
       <p class="s">
-        This is the average annual return from 1 July 2014 to 30 June 2022.
+        This is the average annual return from 1 July 2014 to 30 June 2021.
       </p>
       <p class="s">smartMondayLifecycle commenced on 1 January 2014.</p>
     </div>
